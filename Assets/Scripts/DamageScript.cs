@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class DamageScript : MonoBehaviour
 {
-    public int damageAmount = 20;
+    public float damageAmount;
+    public WeponItem wepon;
+
+    private void Start()
+    {
+        damageAmount = wepon.damage;
+    }
 
     private void OnTriggerEnter(Collider other)
     {

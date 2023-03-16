@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EnemyScript : MonoBehaviour
 {
-    private int HP = 100;
+    private float HP = 100;
     public Slider heathBar;
 
     // Update is called once per frame
@@ -14,7 +14,7 @@ public class EnemyScript : MonoBehaviour
         heathBar.value = HP;
     }
 
-    public void TakeDamage(int damageAmount)
+    public void TakeDamage(float damageAmount)
     {
         HP -= damageAmount;
 
