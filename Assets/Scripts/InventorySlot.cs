@@ -15,7 +15,7 @@ public class InventorySlot : MonoBehaviour
 
     private void Awake()
     {
-        Drag = transform.GetChild(0).gameObject;
+        Drag = transform.GetChild(1).gameObject;
         iconGO = Drag.transform.GetChild(0).gameObject;
         itemAmount = Drag.transform.GetChild(1).GetComponent<TMP_Text>();
     }

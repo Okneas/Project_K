@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 901614904}
+  m_SkyboxMaterial: {fileID: 1983610404}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -10058,6 +10058,138 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1376151429156713774, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376151429156713777, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ccd86a607d98ff241893543ccd5c545a, type: 3}
+    - target: {fileID: 2964737024130881773, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 524
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024130881773, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024141190529, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ccd86a607d98ff241893543ccd5c545a, type: 3}
+    - target: {fileID: 2964737024141190558, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 159.99998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024141190558, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 316.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024274298407, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 649
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024274298407, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024356574030, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024356574030, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84.00012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024459522650, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024459522650, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 316.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024757436013, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 524
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737024757436013, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 316.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025038069267, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 159.99998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025038069267, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84.00012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025070690140, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 524
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025070690140, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025119196896, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025119196896, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 200.99988
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025175566468, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 649
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025175566468, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 316.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025308107628, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 649
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025308107628, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84.00012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025361037920, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025361037920, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 316.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025482493771, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025482493771, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 201
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025689967747, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025689967747, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 201.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025823680508, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964737025823680508, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 84.00018
+      objectReference: {fileID: 0}
     - target: {fileID: 3143134653885562196, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
       propertyPath: sensX
       value: 200
@@ -10113,6 +10245,30 @@ PrefabInstance:
     - target: {fileID: 8616519267456358700, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
       propertyPath: reachDist
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616519268400742817, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616519268400742817, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b1c9e0266eb62d440a6aabbd50857437, type: 3}
+    - target: {fileID: 8616519268400742817, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616519268400742817, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616519268400742817, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616519268400742817, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7750663109807084073, guid: 8eea5c5bfb164e04eb418fe0ec642a05, type: 3}
@@ -19359,167 +19515,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b218d35c8dc65164892039ea0aea3b4b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d337b23624bf9543bb81e817ea459b9, type: 3}
---- !u!21 &901614904
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 6fc9318f5193c094c98c0d450cd61e3b, type: 3}
-  m_ShaderKeywords: _BACKGROUNDMODE_COLORS _CLOUDSLITBYSUN_ON _ENABLECLOUDSROTATION_ON
-    _ENABLECLOUDS_ON _ENABLEPATTERNOVERLAY_ON _ENABLESUN_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BackgroundCubemap:
-        m_Texture: {fileID: 8900000, guid: 2c57d6a0875908a419b73e584e11c2ea, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CloudsCubemap:
-        m_Texture: {fileID: 8900000, guid: eb066507e9bb4884e9d201eb874ccf2c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MoonTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _PatternCubemap:
-        m_Texture: {fileID: 8900000, guid: 2496987be02f21244bcd1e6c3bfa5aff, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarsCubemap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SunTexture:
-        m_Texture: {fileID: 2800000, guid: dd566660fc358aa4098080e42ca0db56, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TwinklingTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BackgroundCat: 1
-    - _BackgroundExposure: 1
-    - _BackgroundMode: 0
-    - _Banner: 1
-    - _BumpScale: 1
-    - _CloudsCat: 1
-    - _CloudsHeight: 0.045
-    - _CloudsIntensity: 1
-    - _CloudsLitbySun: 1
-    - _CloudsRotation: 360
-    - _CloudsRotationSpeed: 0.47
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _EnableBuiltinFog: 0
-    - _EnableClouds: 1
-    - _EnableCloudsRotation: 1
-    - _EnableFogMessage: 0
-    - _EnableMoon: 0
-    - _EnablePatternOverlay: 1
-    - _EnableStars: 0
-    - _EnableStarsRotation: 0
-    - _EnableStarsTwinkling: 0
-    - _EnableSun: 1
-    - _EquatorHeight: 0.154
-    - _EquatorSmoothness: 0.678
-    - _FogCat: 1
-    - _FogFill: 0
-    - _FogHeight: 0
-    - _FogSmoothness: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _MoonCat: 1
-    - _MoonIntensity: 1
-    - _MoonSize: 0.5
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _PatternCat: 1
-    - _PatternContrast: 0.09
-    - _SkyboxCat: 1
-    - _SkyboxRotation: 0
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _StarsBottomMask: 2
-    - _StarsCat: 1
-    - _StarsHeightMask: 0
-    - _StarsIntensity: 2
-    - _StarsLayer: 2
-    - _StarsRotation: 360
-    - _StarsRotationSpeed: 0.5
-    - _StarsSize: 0.5
-    - _StarsSunMask: 0
-    - _SunCat: 1
-    - _SunIntensity: 1
-    - _SunSize: 0.5
-    - _TwinklingContrast: 1
-    - _TwinklingSpeed: 0.05
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _CloudsLightColor: {r: 0.82452834, g: 0.96152455, b: 1, a: 1}
-    - _CloudsShadowColor: {r: 0.4980392, g: 0.7450981, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EquatorColor: {r: 0, g: 1, b: 0.97976923, a: 1}
-    - _GroundColor: {r: 0.13725491, g: 0.52156866, b: 0.8745099, a: 1}
-    - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SkyColor: {r: 0.4980392, g: 0.7450981, b: 1, a: 1}
-    - _SkyboxRotationAxis: {r: 0, g: 1, b: 0, a: 0}
-    - _StarsRotationAxis: {r: 0, g: 1, b: 0, a: 0}
-    - _SunColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!4 &903128959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 12fedaa348758094eb18fb63e8da93ee, type: 3}
@@ -46503,6 +46498,167 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3ca55d6fd8e590479a3ec1a06dd4960, type: 3}
+--- !u!21 &1983610404
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Material
+  m_Shader: {fileID: 4800000, guid: 6fc9318f5193c094c98c0d450cd61e3b, type: 3}
+  m_ShaderKeywords: _BACKGROUNDMODE_COLORS _CLOUDSLITBYSUN_ON _ENABLECLOUDSROTATION_ON
+    _ENABLECLOUDS_ON _ENABLEPATTERNOVERLAY_ON _ENABLESUN_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackgroundCubemap:
+        m_Texture: {fileID: 8900000, guid: 2c57d6a0875908a419b73e584e11c2ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsCubemap:
+        m_Texture: {fileID: 8900000, guid: eb066507e9bb4884e9d201eb874ccf2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MoonTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PatternCubemap:
+        m_Texture: {fileID: 8900000, guid: 2496987be02f21244bcd1e6c3bfa5aff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SunTexture:
+        m_Texture: {fileID: 2800000, guid: dd566660fc358aa4098080e42ca0db56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TwinklingTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BackgroundCat: 1
+    - _BackgroundExposure: 1
+    - _BackgroundMode: 0
+    - _Banner: 1
+    - _BumpScale: 1
+    - _CloudsCat: 1
+    - _CloudsHeight: 0.045
+    - _CloudsIntensity: 1
+    - _CloudsLitbySun: 1
+    - _CloudsRotation: 360
+    - _CloudsRotationSpeed: 0.47
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnableBuiltinFog: 0
+    - _EnableClouds: 1
+    - _EnableCloudsRotation: 1
+    - _EnableFogMessage: 0
+    - _EnableMoon: 0
+    - _EnablePatternOverlay: 1
+    - _EnableStars: 0
+    - _EnableStarsRotation: 0
+    - _EnableStarsTwinkling: 0
+    - _EnableSun: 1
+    - _EquatorHeight: 0.154
+    - _EquatorSmoothness: 0.678
+    - _FogCat: 1
+    - _FogFill: 0
+    - _FogHeight: 0
+    - _FogSmoothness: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _MoonCat: 1
+    - _MoonIntensity: 1
+    - _MoonSize: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PatternCat: 1
+    - _PatternContrast: 0.09
+    - _SkyboxCat: 1
+    - _SkyboxRotation: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarsBottomMask: 2
+    - _StarsCat: 1
+    - _StarsHeightMask: 0
+    - _StarsIntensity: 2
+    - _StarsLayer: 2
+    - _StarsRotation: 360
+    - _StarsRotationSpeed: 0.5
+    - _StarsSize: 0.5
+    - _StarsSunMask: 0
+    - _SunCat: 1
+    - _SunIntensity: 1
+    - _SunSize: 0.5
+    - _TwinklingContrast: 1
+    - _TwinklingSpeed: 0.05
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _CloudsLightColor: {r: 0.82452834, g: 0.96152455, b: 1, a: 1}
+    - _CloudsShadowColor: {r: 0.4980392, g: 0.7450981, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EquatorColor: {r: 0, g: 1, b: 0.97976923, a: 1}
+    - _GroundColor: {r: 0.13725491, g: 0.52156866, b: 0.8745099, a: 1}
+    - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SkyColor: {r: 0.4980392, g: 0.7450981, b: 1, a: 1}
+    - _SkyboxRotationAxis: {r: 0, g: 1, b: 0, a: 0}
+    - _StarsRotationAxis: {r: 0, g: 1, b: 0, a: 0}
+    - _SunColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &1989859762
 PrefabInstance:
   m_ObjectHideFlags: 0
