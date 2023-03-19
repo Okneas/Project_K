@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1931242857433328781}
   - component: {fileID: 1931242857433328782}
   - component: {fileID: 1931242857433328783}
-  - component: {fileID: 1931242857433328779}
+  - component: {fileID: 2371068894550728995}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1931242857433328779
+--- !u!114 &2371068894550728995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1931242857433328784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef610c78128782a4580ba322b0f5aaac, type: 3}
+  m_Script: {fileID: 11500000, guid: 8db2f9f3b6e4c2b44bce467a8287a451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 0}
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 1931242858911069958}
   - component: {fileID: 1931242858911069959}
   - component: {fileID: 1931242858911069960}
-  - component: {fileID: 1931242858911069955}
+  - component: {fileID: 5595229695109899524}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Enemy
@@ -503,7 +503,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1931242858911069955
+--- !u!114 &5595229695109899524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1931242858911069961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0408a3caeffbe44892af9c1ad9ee2c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd60e0869a38554f98c995709dc7549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   heathBar: {fileID: 1931242857898832461}

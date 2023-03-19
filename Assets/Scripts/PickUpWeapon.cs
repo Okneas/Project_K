@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickUpWeapon : MonoBehaviour
 {
+    GameObject offWeapon;
     ItemSriptebleObject weapon;
     GameObject currentWeapon;
     public GameObject Inventory;
@@ -18,8 +19,10 @@ public class PickUpWeapon : MonoBehaviour
             weapon = Inventory.transform.GetChild(15).GetComponent<InventorySlot>().item;
             PickUp();
         }
-        if(Inventory.transform.GetChild(15).GetComponent<InventorySlot>().isEmpty == true)
+        if(Inventory.transform.GetChild(15).GetComponent<InventorySlot>().isEmpty == true && isEquip == true)
         {
+            offWeapon = transform.GetChild(0).gameObject;
+            Destroy(offWeapon);
             isEquip = false;
         }
     }

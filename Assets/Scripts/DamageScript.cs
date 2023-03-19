@@ -9,7 +9,7 @@ public class DamageScript : MonoBehaviour
 
     private void Start()
     {
-        damageAmount = wepon.damage;
+        damageAmount = wepon.damage; //reflection class - посмотреть
     }
 
     private void OnTriggerEnter(Collider other)
