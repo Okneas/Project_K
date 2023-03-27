@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class ButtonExit : MonoBehaviour
 {
     public Canvas MainMenu;
-    public Canvas ChooseClassMenu;
+    public GameObject multiplay;
     public void Exit()
     {
         Application.Quit();
@@ -17,6 +17,19 @@ public class ButtonExit : MonoBehaviour
         PlayerPrefs.SetFloat("PosX", 0);
         PlayerPrefs.SetFloat("PosZ", 0);
         PlayerPrefs.SetFloat("PosY", 0);
-        SceneManager.LoadScene(_scene); 
+        SceneManager.LoadScene(_scene);
+    }
+
+    public void Multiplay()
+    {
+        MainMenu.gameObject.SetActive(false);
+        multiplay.SetActive(true);
+    }
+
+    public void ReturnTomMainPage()
+    {
+
+        MainMenu.gameObject.SetActive(true);
+        multiplay.gameObject.SetActive(false);
     }
 }

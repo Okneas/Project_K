@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DontDestroyOnLoad : MonoBehaviour
+public class SceneChanger : MonoBehaviour
 {
-    void Awake()
+
+    public void SceneChange(int _scene)
     {
-        DontDestroyOnLoad(this.gameObject);
+        SceneManager.LoadScene(_scene);
     }
 }
