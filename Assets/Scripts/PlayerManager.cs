@@ -7,19 +7,29 @@ using System.Security.Cryptography;
 
 public class PlayerManager : MonoBehaviour
 {
-    public GameObject player;
-    float HP;
-
-    public void Start()
+    float _attackDelay = 0;
+    Collider col;
+    public void OnTriggerStay(Collider other)
     {
-        HP = player.GetComponent<PlayerClass>().HP;
-    }
-    
-    public void OnTriggerEnter(Collider other)
-    {
-        if(other.transform.tag == "Enemy")
+        if(other.tag == "Enemy")
         {
-            HP -= other.transform.GetComponent<DamageScriptEnemy>().damageCount;
+            if(_attackDelay < other.transform.GetComponent<DamageScriptEnemy>().attackSpeed)
+            {
+                _attackDelay += Time.deltaTime;
+            }
+            else
+            {
+                _attackDelay = 0;
+                TakeDamage(other);
+            }
+        }
+    }
+
+    private void TakeDamage(Collider col)
+    {
+        if (col.transform.GetComponent<DamageScriptEnemy>().damageCount - transform.gameObject.GetComponent<PlayerClass>().armor > 0)
+        {
+            transform.gameObject.GetComponent<PlayerClass>().HP -= col.transform.GetComponent<DamageScriptEnemy>().damageCount - transform.gameObject.GetComponent<PlayerClass>().armor;
         }
     }
 }
