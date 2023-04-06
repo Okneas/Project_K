@@ -19,4 +19,11 @@ public class DamageScript : MonoBehaviour
             other.GetComponent<EnemyScript>().TakeDamage(damageAmount);
         }
     }
+    private void Update()
+    {
+        if(transform.IsChildOf(GameObject.Find("Hand").transform))
+        {
+            transform.parent.GetComponent<attackscript>().enabled = true;
+        }
+    }
 }
