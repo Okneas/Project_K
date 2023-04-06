@@ -144,5 +144,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c1d6fefe4fb5da48be7db11f48c04fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 20
+  damageAmount: 20.9
   wepon: {fileID: 11400000, guid: 97d641e2249536c469f63ec1d5a974f9, type: 2}

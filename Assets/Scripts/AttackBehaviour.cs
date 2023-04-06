@@ -17,10 +17,10 @@ public class AttackBehaviour : StateMachineBehaviour
         animator.transform.LookAt(player);
         float distance = Vector3.Distance(animator.transform.position, player.position);
         if (distance > 3)
-            animator.SetBool("isAttacking", false);
+            animator.SetBool("IsAttacking", false);
 
         if (distance > 15)
-            animator.SetBool("isChasing", false);
+            animator.SetBool("IsChasing", false);
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

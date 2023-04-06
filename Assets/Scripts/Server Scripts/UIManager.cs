@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
     {
         startMenu.SetActive(false);
         usernameField.interactable = false;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
         Client.instance.ConnectedToServer();
     }
 }

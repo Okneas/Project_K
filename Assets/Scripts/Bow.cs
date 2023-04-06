@@ -1,82 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Bow : MonoBehaviour
 {
-    public float Tension;
-    private bool _pressed;
- 
-    public Transform RopeTransform;
-   
-    public Vector3 RopeNearlocalPosition;
-    public Vector3 RopeFarlocalPosition;
-    
-   
-    public float ReturnTime;
-    public int ArrowCount = 4;
-   
-
-    public AnimationCurve RopeReturnAnimation;
-    public Arrow CurrentArrow;
-    private int ArrowIndex = 0;
-    public float ArrowSpeed;
-    public Arrow[] ArrowsPool;
+    Vector3 dir;
+    public GameObject arrowPref;
     // Start is called before the first frame update
-    void Start()
-    {
-        RopeNearlocalPosition = RopeTransform.localPosition;
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (transform.IsChildOf(GameObject.Find("Hand").transform))
         {
-            if (ArrowCount > 0)
+            transform.parent.GetComponent<attackscript>().enabled = false;
+            if (Input.GetMouseButtonDown(0))
             {
-
-                _pressed = true;
-                ArrowIndex++;
-                if (ArrowIndex >= ArrowsPool.Length)
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerClass>().arrow > 0)
                 {
-                    ArrowIndex = 0;
-                }
-                CurrentArrow = ArrowsPool[ArrowIndex];
-                CurrentArrow.SetToRope(RopeTransform);
-            }
-            else
-            {
-                
-            }
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            _pressed = false;
-            Tension = 0;
-            StartCoroutine(RopeReturn());
-            CurrentArrow.Shot(ArrowSpeed);
-            ArrowCount--;
-                }
-        if (_pressed)
-        {
-            if (Tension < 1f)
-            {
-                Tension += Time.deltaTime;
-            }
-            RopeTransform.localPosition = Vector3.Lerp(RopeNearlocalPosition, RopeFarlocalPosition , Tension);
-        }
-    }
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerClass>().arrow--;
+                    Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+                    RaycastHit hit;
 
-    IEnumerator RopeReturn()
-    {
-        Vector3 startLocalposition = RopeTransform.localPosition;
-        for(float f = 0; f < 1f; f += Time.deltaTime /ReturnTime)
-        {
-            RopeTransform.localPosition = Vector3.Lerp(startLocalposition, RopeNearlocalPosition,RopeReturnAnimation.Evaluate( f));
-            yield return null;
+                    Vector3 target;
+                    if (Physics.Raycast(ray, out hit))
+                        target = hit.point;
+                    else
+                        target = ray.GetPoint(90);
+                    dir = target - transform.GetChild(1).position;
+                    GameObject currentArrow = Instantiate(arrowPref, transform.GetChild(1).position, Quaternion.identity);
+                    currentArrow.transform.forward = dir.normalized;
+                    currentArrow.GetComponent<Rigidbody>().AddForce(dir.normalized * 2000, ForceMode.Force);
+                }
+            }
         }
-        RopeTransform.localPosition = RopeNearlocalPosition;
     }
 }

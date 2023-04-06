@@ -8,7 +8,7 @@ public class EnemyScript : MonoBehaviour
     public GameObject enemyPrefab;
     public GameObject[] spawns;
     public float xpGain = 5;
-    private float HP = 100;
+    public float HP = 100;
     public Slider heathBar;
 
     private void Start()
@@ -28,9 +28,11 @@ public class EnemyScript : MonoBehaviour
         if(HP <= 0)
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerClass>().XP += xpGain;
-            Destroy(gameObject);
+            int randGold = Random.Range(0, 20);
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerClass>().gold += randGold;
             int numSpawn = Random.Range(0, spawns.Length);
-            Instantiate(enemyPrefab, spawns[numSpawn].transform.position, spawns[numSpawn].transform.rotation);
+            HP = 100;
+            transform.position = spawns[numSpawn].transform.position;
         }
     }
 }

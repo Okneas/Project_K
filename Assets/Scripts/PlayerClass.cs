@@ -16,6 +16,8 @@ public class PlayerClass : MonoBehaviour
     public int SkillPoint = 0;
     public float MaxHP = 100.0f;
     public int armor = 0;
+    public int arrow = 0;
+    public int gold = 0;
     private void GameOver()
     {
         SceneManager.LoadScene(1);
@@ -23,15 +25,15 @@ public class PlayerClass : MonoBehaviour
     }
     private void Update()
     {
-        textStats.text = $"Level: {LVL} \nXP: {XP}/{XPToNextLVL} \nSkill Points: {SkillPoint} \nHP: {HP}/{MaxHP} \nArmor: {armor} \nSpeedMult: {SpeedMult} \nDamageMult: {DamageMult}";
+        textStats.text = $"Level: {LVL} \nXP: {XP}/{XPToNextLVL} \nSkill Points: {SkillPoint} \nHP: {HP}/{MaxHP} \nArmor: {armor} \nSpeedMult: {SpeedMult} \nDamageMult: {DamageMult}\nArrows:{arrow}\nGold:{gold}";
         if (HP == 0)
         {
             GameOver();
         }
-        if(XP == XPToNextLVL)
+        if(XP >= XPToNextLVL)
         {
             LvlUp();
-            XP = 0;
+            XP = XP - XPToNextLVL;
             XPToNextLVL = XPToNextLVL + XPToNextLVL * 2.75f;
         }
     }
