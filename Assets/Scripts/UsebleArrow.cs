@@ -8,7 +8,8 @@ public class UsebleArrow : MonoBehaviour
     {
         if(collision.transform.tag == "Enemy")
         {
-            collision.transform.GetComponent<EnemyScript>().HP -= 20;
+            collision.transform.GetComponent<EnemyScript>().TakeDamage(20);
+            Destroy(transform.gameObject);
         }
 
     }

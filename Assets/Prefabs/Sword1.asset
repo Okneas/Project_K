@@ -18,4 +18,4 @@ MonoBehaviour:
   itemName: Sword1
   MaxAmout: 1
   ItemDescription: 
-  damage: 30
+  damage: 50
