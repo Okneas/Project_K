@@ -73,6 +73,7 @@ public class Movement : MonoBehaviour
 
     private void MovePlayer()
     {
+        transform.rotation = orientation.rotation;
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
         if (grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerClass>().SpeedMult * 10f, ForceMode.Force);
