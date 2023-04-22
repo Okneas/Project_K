@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PlayerClass : MonoBehaviour
 {
     public Text textStats;
+    public Text artif;
     public int LVL = 1;
     public float HP = 100.0f;
     public float SpeedMult = 1.0f;
@@ -18,6 +19,7 @@ public class PlayerClass : MonoBehaviour
     public int armor = 0;
     public int arrow = 0;
     public int gold = 0;
+    public int art = 0;
     private void GameOver()
     {
         SceneManager.LoadScene(1);
@@ -25,7 +27,12 @@ public class PlayerClass : MonoBehaviour
     }
     private void Update()
     {
+        if(art == 5)
+        {
+            Application.Quit();
+        }
         textStats.text = $"Level: {LVL} \nXP: {XP}/{XPToNextLVL} \nSkill Points: {SkillPoint} \nHP: {HP}/{MaxHP} \nArmor: {armor} \nSpeedMult: {SpeedMult} \nDamageMult: {DamageMult}\nArrows:{arrow}\nGold:{gold}";
+        artif.text = $"Artifacts: {art}";
         if (HP == 0)
         {
             GameOver();
@@ -48,6 +55,14 @@ public class PlayerClass : MonoBehaviour
         else
         {
             SkillPoint++;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.tag == "Artifact")
+        {
+            Destroy(other.transform.gameObject);
+            art++;
         }
     }
 }

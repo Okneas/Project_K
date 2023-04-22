@@ -4937,7 +4937,7 @@ GameObject:
   - component: {fileID: 1637158572392153839}
   - component: {fileID: 5424202563841481785}
   m_Layer: 0
-  m_Name: Chr_FantasyHero_Preset_21
+  m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5013,6 +5013,7 @@ MonoBehaviour:
   spawns:
   - {fileID: 0}
   xpGain: 10
+  HP: 100
   heathBar: {fileID: 8275405425060021057}
 --- !u!114 &3982438777639204115
 MonoBehaviour:
