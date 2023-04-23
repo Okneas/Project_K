@@ -220,4 +220,9 @@ jobs:
         with:
           name: build-StandaloneWindows64
           path: build
-          branch: build-Windows
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: buildWin
+          folder: build/Windows

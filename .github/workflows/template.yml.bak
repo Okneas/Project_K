@@ -218,6 +218,6 @@ jobs:
 
       - uses: actions/download-artifact@v2
         with:
-          name: build-Windows
+          name: build-StandaloneWindows64
           path: build
           branch: build-Windows
