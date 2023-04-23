@@ -207,22 +207,3 @@ jobs:
         with:
           branch: gh-pages
           folder: build/WebGL
-
-  deployWindows:
-    needs: buildWindows
-    name: Deploy to build on branch 🚀
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - uses: actions/download-artifact@v2
-        with:
-          name: build-StandaloneWindows64
-          path: build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: buildWin
-          folder: build/Windows
