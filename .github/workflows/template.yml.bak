@@ -188,3 +188,41 @@ jobs:
         with:
           name: build-Android
           path: build/Android
+          
+  deployPages:
+    needs: buildWebGL
+    name: Deploy to Github Pages 🚀
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: build-WebGL
+          path: build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build/WebGL
+
+  deployWindows:
+    needs: buildWindows
+    name: Deploy to build on branch 🚀
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: build-Windows
+          path: build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: build-Windows
+          folder: build/StandaloneWindows64
